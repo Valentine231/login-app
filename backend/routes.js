@@ -8,7 +8,7 @@ router.get('/', async (req, res) => {
     const Users = await User.find()
 
     return res.status(200).json({
-        status: 'success',
+        status: 'successful',
         data: { Users }
     })
 
